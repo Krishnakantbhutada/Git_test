@@ -3,3 +3,7 @@ mkdir => make directory
 Git init => initialize git repo
 
 git status => Check if any thing is uncommited
+
+git add . => save all the unsaved changes
+
+git commit -m "message" => In order to commit changes to the local folder
