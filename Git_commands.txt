@@ -7,3 +7,19 @@ git status => Check if any thing is uncommited
 git add . => save all the unsaved changes
 
 git commit -m "message" => In order to commit changes to the local folder
+
+git restore --stagged <name of file> => to unstage/reverse the add . command
+
+git reset (commit id) => deletes the new commits and restore to the old commit
+
+git log => to see commits 
+
+git stash => to put the unstaged changes to a stash when i want i can pull them(for these changes i need to add them just dont do the commit step)
+
+git stash pop => pull the stashed changes and now you can commit those
+
+git stash clear => remove the changes
+
+git remote add origin <link of the repo> => Link the repo on git using a link with the current project
+
+git push origin master => Push the changes into the master
