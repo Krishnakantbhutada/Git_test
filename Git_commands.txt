@@ -23,3 +23,19 @@ git stash clear => remove the changes
 git remote add origin <link of the repo> => Link the repo on git using a link with the current project
 
 git push origin master => Push the changes into the master
+
+fork => if you dont have access to the project, then you can make copy of the same project in your account using fork option.
+
+git clone <url> => use git clone to copy the forked project to your local
+
+git remote add upstream <url> => upstream is the main project which you have forked from 
+
+
+
+
+
+
+
+
+
+
